@@ -39,7 +39,7 @@ To replicate this setup, you'll need:
 
    - Install Docker and set up Nginx with Docker on the public server.
    - Create an Nginx configuration file to route requests to the respective containers based on the subdomain.
-```js
+```nginx
 upstream backend {
     server 192.168.0.4:80;
 }
