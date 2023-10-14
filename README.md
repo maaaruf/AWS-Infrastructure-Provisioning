@@ -29,9 +29,11 @@ To clone this repository to your local environment:
 git clone https://github.com/your-username/AWS-Infrastructure-Provisioning.git
 
 ##Usage
-Each project or experiment will have its own directory with a self-contained README file explaining the purpose, requirements, and steps to execute it. It's important to note that some experiments might involve costs associated with AWS services. Always review and understand the AWS pricing details before running any experiments.
+Each project or experiment will have its own directory with a self-contained README file explaining the purpose, requirements, and steps to execute it.
+It's important to note that some experiments might involve costs associated with AWS services. Always review and understand the AWS pricing details before running any experiments.
 
 ##Folder Structure
+``` lua
 /AWS-Infrastructure-Provisioning
 |-- /project-1
 |   |-- README.md
@@ -52,7 +54,7 @@ Each project or experiment will have its own directory with a self-contained REA
 |-- LICENSE
 |-- .gitignore
 |-- CONTRIBUTING.md
-
+```
 - /project-X: Directories containing complete projects, each with its own detailed README file.
 - /experiment-X: Directories dedicated to specific experiments or smaller tasks.
 - /shared-scripts: A collection of scripts that might be reused across different projects or experiments.
