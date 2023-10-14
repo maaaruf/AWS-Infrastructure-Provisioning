@@ -1,4 +1,4 @@
-# Multi-Server AWS Deployment with NGINX and Docker
+# Multi-Server App Deployment with NGINX and Docker
 
 This project demonstrates a multi-server setup on AWS, consisting of three servers: two in a public subnet and one in a private subnet. The configuration includes a PostgreSQL database on the private server, an Nginx server with Docker on a public server, and two containers (frontend and backend) on another public server.
 
@@ -39,6 +39,7 @@ To replicate this setup, you'll need:
 
    - Install Docker and set up Nginx with Docker on the public server.
    - Create an Nginx configuration file to route requests to the respective containers based on the subdomain.
+
 ```nginx
 upstream backend {
     server 192.168.0.4:80;
